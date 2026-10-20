@@ -1,0 +1,23 @@
+tabs:
+  main:
+    display: Settings
+    sections:
+      -
+        display: Global retention
+        fields:
+          -
+            handle: enabled
+            field:
+              type: toggle
+              display: Enable automatic cleanup
+              default: false
+          -
+            handle: default_retention_days
+            field:
+              type: integer
+              display: Default retention period (days)
+              default: 60
+              validate:
+                - required
+                - integer
+                - min:1

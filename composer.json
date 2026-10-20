@@ -1,0 +1,26 @@
+{
+    "name": "wearejust/statamic-form-submission-retention",
+    "description": "Configurable retention and cleanup for Statamic form submissions.",
+    "type": "statamic-addon",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.3",
+        "statamic/cms": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WeAreJust\\StatamicFormSubmissionRetention\\": "src/"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Form Submission Retention",
+            "description": "Configure and automatically clean up form submissions."
+        },
+        "laravel": {
+            "providers": [
+                "WeAreJust\\StatamicFormSubmissionRetention\\ServiceProvider"
+            ]
+        }
+    }
+}
