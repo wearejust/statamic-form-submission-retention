@@ -29,6 +29,5 @@ The command can also be run manually:
 php artisan forms:cleanup-submissions
 ```
 
-## Development
-
-The package is path-installed from `packages/statamic-form-submission-retention` in this repository. When distributed separately, the consuming project can require the published Composer package without changing the addon's runtime configuration.
+# Contributing
+Want to help improve this addon? Great! We simply ask that you review the [contribution guide](contribution) before you open issues or send pull requests.
