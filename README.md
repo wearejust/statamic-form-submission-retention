@@ -30,4 +30,4 @@ php artisan forms:cleanup-submissions
 ```
 
 # Contributing
-Want to help improve this addon? Great! We simply ask that you review the [contribution guide](contribution) before you open issues or send pull requests.
+Want to help improve this addon? Great! We simply ask that you review the [contribution guide](https://github.com/wearejust/statamic-form-submission-retention?tab=contributing-ov-file) before you open issues or send pull requests.
