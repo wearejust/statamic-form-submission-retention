@@ -1,4 +1,4 @@
-# How to Contribute to Statamic
+# How to Contribute to this addon
 
 Thank you for taking the time to contribute!
 
